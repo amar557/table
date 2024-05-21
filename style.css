@@ -31,7 +31,7 @@
   justify-content: flex-end;
 }
 .top-bar .heading {
-  width: 20%;
+  width: 26%;
   text-align: start;
   text-transform: capitalize;
 }
@@ -42,19 +42,19 @@
 .logo-bar {
   position: absolute;
   bottom: -11%;
-  right: -8px;
+  right: -10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 110%;
+  height: 118%;
   background: #b6e4a6;
   padding: 10px 10px;
   border-radius: 10px;
   justify-content: space-between;
 }
 .logo {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   object-fit: fill;
 }
@@ -75,7 +75,7 @@
     width: 30%;
   }
   .top-bar .heading {
-    width: 30%;
+    width: 39%;
   }
 }
 /* @media only screen and (max-width: 768px) {
@@ -93,14 +93,14 @@
     width: 34%;
   }
   .top-bar .heading {
-    width: 34%;
+    width: 42%;
   }
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 380px) {
   .nested {
     width: 40%;
   }
   .top-bar .heading {
-    width: 40%;
+    width: 55%;
   }
 }
