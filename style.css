@@ -1,0 +1,98 @@
+.container {
+  width: 50%;
+  position: relative;
+  margin: 50px auto auto auto;
+}
+.table {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 100%;
+  /* padding: 10px; */
+}
+.table .row:not(:last-child) {
+  border-bottom: 1px solid black; /* or any other style you prefer */
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid black; */
+  padding: 10px 10px;
+}
+.top-bar img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top-bar .heading {
+  width: 20%;
+  text-align: start;
+  text-transform: capitalize;
+}
+.row .avail {
+  width: 20%;
+  font-size: 1rem;
+}
+.logo-bar {
+  position: absolute;
+  bottom: -11%;
+  right: -8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 110%;
+  background: #b6e4a6;
+  padding: 10px 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.mark {
+  padding-bottom: 5px;
+  position: relative;
+  z-index: 50;
+}
+.nested {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1060px) {
+  .nested {
+    width: 30%;
+  }
+  .top-bar .heading {
+    width: 30%;
+  }
+}
+/* @media only screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    margin: 50px auto auto auto;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: 50px auto auto auto;
+  }
+  .nested {
+    width: 34%;
+  }
+  .top-bar .heading {
+    width: 34%;
+  }
+}
